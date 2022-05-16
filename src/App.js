@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import FifthMain from "./components/Main/FifthMain/FifthMain";
+import FirstMain from "./components/Main/FirstMain/FirstMain";
+import FourthMain from "./components/Main/FourthMain/FourthMain";
+import SecondMain from "./components/Main/SecondMain/SecondMain";
+import ThirdMain from "./components/Main/ThirdMain/ThirdMain";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <FirstMain />
+      <SecondMain />
+      <ThirdMain />
+      <FourthMain />
+      <FifthMain />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
