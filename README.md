@@ -1,2 +1,1 @@
-داشبورد vision-ui. 
-(به دلیل ریسپانسیو نبودن دمو این قالب نیز ریسپانسیو نیست و تنها در دسکتاپ قابل مشاهده است)
+Vision-Ui Dashboard (Not Responsive): [view](https://vision-ui.vercel.app/)
